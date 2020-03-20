@@ -1,3 +1,11 @@
+<h1 align="center">
+    <img alt="GoStack" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-header.png" width="200px" />
+</h1>
+
+<h3 align="center">
+  Módulo 07 - Redux
+</h3>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
