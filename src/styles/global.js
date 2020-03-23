@@ -32,4 +32,8 @@ export default createGlobalStyle`
     cursor: pointer;
   }
 
+  img {
+    width: 100%;
+  }
+
 `;
