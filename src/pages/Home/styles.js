@@ -1,5 +1,21 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import { darken } from 'polished';
+import { FaSpinner } from 'react-icons/fa';
+
+const rotate = keyframes`
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+`;
+
+export const Spinner = styled(FaSpinner)`
+  display: flex;
+  margin: 100px auto 0;
+  animation: ${rotate} 2s linear infinite;
+`;
 
 export const ProductList = styled.ul`
   display: grid;

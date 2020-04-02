@@ -2,13 +2,22 @@ import styled from 'styled-components';
 import { darken } from 'polished';
 
 export const Container = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 30px;
   background: #fff;
   border-radius: 4px;
 
+  h1 {
+    margin-top: 24px;
+  }
+
   footer {
     margin-top: 30px;
     display: flex;
+    width: 100%;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 

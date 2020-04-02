@@ -29,6 +29,8 @@ export default createGlobalStyle`
     padding: 0 20px 50px;
   }
 
+
+
   button {
     cursor: pointer;
   }
