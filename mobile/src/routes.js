@@ -19,7 +19,6 @@ const Routes = () => {
           header: ({ navigation }) => {
             return <Header navigation={navigation} />;
           },
-
           headerBackTitleVisible: false,
         }}>
         <Stack.Screen name="Home" component={Home} />
